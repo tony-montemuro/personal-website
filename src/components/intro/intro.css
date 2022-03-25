@@ -19,6 +19,97 @@ h2 {
     padding: 50px;
 }
 
+h3 {
+    font-size: 200%;
+    margin-bottom: 10px;
+}
+
+.watch-icons {
+    display: flex;
+    width: 75%;
+}
+
+.yt {
+    flex: 1;
+}
+
+.yt-img {
+    width: 75px;
+    height: auto;
+}
+
+.twitch {
+    flex: 1;
+}
+
+.twitch-img {
+    width: 50px;
+    height: auto;
+}
+
+.contact {
+    padding: 50px;
+}
+
+.contact-icons {
+    display: flex;
+    width: 75%;
+}
+
+.discord {
+    flex: 1;
+}
+
+.discord-img {
+    width: 75px;
+    height: auto;
+}
+
+.email {
+    flex: 1;
+}
+
+.email-img {
+    width: 75px;
+    height: auto;
+}
+
+.support {
+    padding: 50px;
+}
+
+.support-icons {
+    display: flex;
+    width: 75%;
+}
+
+.paypal {
+    flex: 1;
+}
+
+.paypal-img {
+    width: 60px;
+    height: auto;
+}
+
+.bitcoin {
+    flex: 1;
+}
+
+.bitcoin-img {
+    width: 65px;
+    height: auto;
+}
+
+.eth {
+    flex: 1;
+}
+
+.eth-img {
+    width: 65px;
+    height: auto;
+}
+
 .i-midde {
     flex: 1;
 }
@@ -33,4 +124,8 @@ h2 {
 
 .i-right {
     flex: 1;
+}
+
+.watch {
+    padding: 50px;
 }
