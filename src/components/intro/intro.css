@@ -15,6 +15,10 @@ h2 {
     flex: 1;
 }
 
+.watch {
+    padding: 50px;
+}
+
 .about {
     padding: 50px;
 }
@@ -126,6 +130,8 @@ h3 {
     flex: 1;
 }
 
-.watch {
-    padding: 50px;
+.me-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }

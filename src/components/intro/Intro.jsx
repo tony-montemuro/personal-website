@@ -6,6 +6,7 @@ import Email from "../../img/email.png"
 import Bitcoin from "../../img/bitcoin.png"
 import Ethereum from "../../img/ethereum.png"
 import Paypal from "../../img/paypal.png"
+import Me from "../../img/me.png"
 
 const Intro = () => {
     return (
@@ -96,7 +97,7 @@ const Intro = () => {
                 </div>
             </div>
             <div className="i-right">
-                <img src="../../img/me.png" alt=""/>
+                <img src={Me} alt="" className="me-img"/>
             </div>
         </div>
         
