@@ -1,0 +1,36 @@
+h1 {
+    font-size: 500%;
+}
+
+h2 {
+    font-size: 250%;
+}
+
+.i {
+    display: flex;
+    height: 100vh;
+}
+
+.i-left {
+    flex: 1;
+}
+
+.about {
+    padding: 50px;
+}
+
+.i-midde {
+    flex: 1;
+}
+
+.facts-wrapper {
+    padding: 50px;
+}
+
+.facts {
+    font-size: 150%;
+}
+
+.i-right {
+    flex: 1;
+}
