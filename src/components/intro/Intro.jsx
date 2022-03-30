@@ -1,4 +1,8 @@
 import "./intro.css"
+
+import Popup from "../Popup/Popup"
+import { useState } from 'react';
+
 import YT from "../../img/yt.png"
 import Twitch from "../../img/twitch.png"
 import Discord from "../../img/discord.png"
@@ -9,6 +13,12 @@ import Paypal from "../../img/paypal.png"
 import Me from "../../img/me.png"
 
 const Intro = () => {
+    const [btcButtonPopup, setBtcButtonPopup] = useState(false);
+    const [ethButtonPopup, setEthButtonPopup] = useState(false);
+    const btcWallet = "1P4KZX5BNqHwhzJuaTxrDQ6G9UQ4QVoDmZ";
+    const ethWallet = "0xC114836F49D3C7Ac67B83077D31F5031A20c5BB2";
+
+
     return (
         <div className="i">
             <div className="i-left">
@@ -76,12 +86,17 @@ const Intro = () => {
                             <img src={Paypal} alt="" className="paypal-img"/>
                             </a>
                         </div>
-                        <div className="bitcoin">
+                        {/* <div className="bitcoin">
                             <img src={Bitcoin} alt="" className="bitcoin-img" />
-                        </div>
-                        <div className="eth">
+                        </div> */}
+                        <button onClick={() => setBtcButtonPopup(true)} className="bitcoin">
+                            <img src={Bitcoin} alt="" className="bitcoin-img" />
+                        </button>
+                        <button onClick={() => setEthButtonPopup(true)} className="eth">
                             <img src={Ethereum} alt="" className="eth-img"/>
-                        </div>
+                        </button>
+                        <Popup trigger={btcButtonPopup} setTrigger={setBtcButtonPopup} wallet={btcWallet}></Popup>
+                        <Popup trigger={ethButtonPopup} setTrigger={setEthButtonPopup} wallet={ethWallet}></Popup>
                     </div>
                 </div>
             </div>
