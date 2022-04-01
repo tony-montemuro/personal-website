@@ -98,6 +98,11 @@ h3 {
 
 .bitcoin {
     flex: 1;
+    cursor: pointer;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    text-align: left;
 }
 
 .bitcoin-img {
@@ -107,6 +112,11 @@ h3 {
 
 .eth {
     flex: 1;
+    cursor: pointer;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    text-align: left;
 }
 
 .eth-img {

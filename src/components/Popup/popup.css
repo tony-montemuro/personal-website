@@ -4,7 +4,7 @@
     left: 0;
     width: 100%;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.35);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,6 +20,15 @@
 
 .popup-inner .close {
     position: absolute;
-    top: 16px;
-    right: 16px;
+    top: 3px;
+    right: 3px;
+    cursor: pointer;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.x-img {
+    width: 35px;
+    height: 35px;
 }

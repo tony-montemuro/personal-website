@@ -15,6 +15,8 @@ import Me from "../../img/me.png"
 const Intro = () => {
     const [btcButtonPopup, setBtcButtonPopup] = useState(false);
     const [ethButtonPopup, setEthButtonPopup] = useState(false);
+    const btc = "Bitcoin";
+    const eth = "Ethereum";
     const btcWallet = "1P4KZX5BNqHwhzJuaTxrDQ6G9UQ4QVoDmZ";
     const ethWallet = "0xC114836F49D3C7Ac67B83077D31F5031A20c5BB2";
 
@@ -67,7 +69,9 @@ const Intro = () => {
                             </a>
                         </div>
                         <div className="email">
-                            <a href="https://www.google.com">
+                            <a href="https://www.google.com"
+                            target="_blank"
+                            rel="noreferrer">
                                 <img src={Email} alt="" className="email-img"/>
                             </a>
                         </div>
@@ -82,21 +86,20 @@ const Intro = () => {
                     <div className="support-icons">
                         <div className="paypal">
                             <a
-                            href="https://www.paypal.com/donate/?business=H4PG6V8NLSPC6&no_recurring=0&item_name=If+you+wish%2C+donate+to+me+to+support+me%21&currency_code=USD">
+                            href="https://www.paypal.com/donate/?business=H4PG6V8NLSPC6&no_recurring=0&item_name=If+you+wish%2C+donate+to+me+to+support+me%21&currency_code=USD"
+                            target="_blank"
+                            rel="noreferrer">
                             <img src={Paypal} alt="" className="paypal-img"/>
                             </a>
                         </div>
-                        {/* <div className="bitcoin">
-                            <img src={Bitcoin} alt="" className="bitcoin-img" />
-                        </div> */}
                         <button onClick={() => setBtcButtonPopup(true)} className="bitcoin">
                             <img src={Bitcoin} alt="" className="bitcoin-img" />
                         </button>
                         <button onClick={() => setEthButtonPopup(true)} className="eth">
                             <img src={Ethereum} alt="" className="eth-img"/>
                         </button>
-                        <Popup trigger={btcButtonPopup} setTrigger={setBtcButtonPopup} wallet={btcWallet}></Popup>
-                        <Popup trigger={ethButtonPopup} setTrigger={setEthButtonPopup} wallet={ethWallet}></Popup>
+                        <Popup trigger={btcButtonPopup} setTrigger={setBtcButtonPopup} wallet={btcWallet} coin={btc}></Popup>
+                        <Popup trigger={ethButtonPopup} setTrigger={setEthButtonPopup} wallet={ethWallet} coin={eth}></Popup>
                     </div>
                 </div>
             </div>
