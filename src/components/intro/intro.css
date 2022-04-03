@@ -73,6 +73,13 @@ h3 {
     flex: 1;
 }
 
+.email-btn {
+    cursor: pointer;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+}
+
 .email-img {
     width: 75px;
     height: auto;

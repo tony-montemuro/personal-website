@@ -1,6 +1,7 @@
 import "./intro.css"
 
 import Popup from "../Popup/Popup"
+import EmailPopup from "../EmailPopup/Popup"
 import { useState } from 'react';
 
 import YT from "../../img/yt.png"
@@ -15,6 +16,7 @@ import Me from "../../img/me.png"
 const Intro = () => {
     const [btcButtonPopup, setBtcButtonPopup] = useState(false);
     const [ethButtonPopup, setEthButtonPopup] = useState(false);
+    const [emailButtonPopup, setEmailButtonPopup] = useState(false);
     const btc = "Bitcoin";
     const eth = "Ethereum";
     const btcWallet = "1P4KZX5BNqHwhzJuaTxrDQ6G9UQ4QVoDmZ";
@@ -69,12 +71,11 @@ const Intro = () => {
                             </a>
                         </div>
                         <div className="email">
-                            <a href="https://www.google.com"
-                            target="_blank"
-                            rel="noreferrer">
+                            <button onClick={() => setEmailButtonPopup(true)} className="email-btn">
                                 <img src={Email} alt="" className="email-img"/>
-                            </a>
+                            </button>
                         </div>
+                        <EmailPopup trigger={emailButtonPopup} setTrigger={setEmailButtonPopup}></EmailPopup>
                     </div>
                 </div>
 
