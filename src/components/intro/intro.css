@@ -44,6 +44,7 @@ h3 {
 
 .twitch {
     flex: 1;
+    margin-top: 5px;
 }
 
 .twitch-img {
@@ -62,6 +63,7 @@ h3 {
 
 .discord {
     flex: 1;
+    margin-top: 10px;
 }
 
 .discord-img {
@@ -96,6 +98,7 @@ h3 {
 
 .paypal {
     flex: 1;
+    margin-top: 7px;
 }
 
 .paypal-img {

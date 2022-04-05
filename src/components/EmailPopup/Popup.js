@@ -25,9 +25,9 @@ function Popup(props) {
       });
   }
   return (props.trigger) ? (
-    <div className="popup">
-        <div className="popup-inner">
-          <button className="close" onClick={() => props.setTrigger(false)}>
+    <div className="popup-email">
+        <div className="popup-inner-email">
+          <button className="close-email" onClick={() => props.setTrigger(false)}>
             <img src={XButton} alt="" className="x-img"/>
           </button>
           <h2>Send me an email! 📧</h2>

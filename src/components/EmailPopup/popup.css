@@ -1,4 +1,4 @@
-.popup {
+.popup-email {
     position: fixed;
     top: 0;
     left: 0;
@@ -10,7 +10,7 @@
     align-items: center;
 }
 
-.popup-inner {
+.popup-inner-email {
     position: relative;
     padding: 32px;
     width: 100%;
@@ -19,7 +19,7 @@
     border-radius: 10px;
 }
 
-.popup-inner .close {
+.popup-inner-email .close-email {
     position: absolute;
     top: 3px;
     right: 3px;
