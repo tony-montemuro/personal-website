@@ -40,8 +40,8 @@ function Popup(props) {
             <input type="text" placeholder="Subject" name="user_subject"/>
             <input type="text" placeholder="Email" name="user_email"/>
             <textarea rows="5" placeholder="Message" name="message"/>
-            <button>Submit</button>
-            {done && <p className="sent-txt">Message sent!</p>}
+            <button className="submit-btn">Send</button>
+            {done && <p className="sent-txt">Email delivered! Thank you. 😀</p>}
           </form>
         </div>
     </div>

@@ -9,6 +9,8 @@ h2 {
 .i {
     display: flex;
     height: 100vh;
+    background-color: #222;
+    color: #f3f3ff
 }
 
 .i-left {

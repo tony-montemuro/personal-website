@@ -15,7 +15,7 @@
     padding: 32px;
     width: 100%;
     max-width: 960px;
-    background-color: white;
+    background-color: #333;
     border-radius: 10px;
 }
 
@@ -38,6 +38,19 @@ form {
     margin-top: 10px;
 }
 
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(243, 234, 255, 0.5);
+    opacity: 1; /* Firefox */
+}
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgb(243, 234, 255, 0.5);
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgb(243, 234, 255, 0.5);
+}
+
 input {
     width: 50%;
     height: 35px;
@@ -45,20 +58,28 @@ input {
     font-size: 13px;
     border-radius: 10px;
     padding-left: 5px;
+    background-color: #444;
+    color: #f3f3ff;
 }
 
 textarea {
     width: 100%;
     margin-top: 10px;
     border-radius: 10px;
-    padding-left: 5px;
+    padding-left: 8px;
+    background-color: #444;
+    color: #f3f3ff;
 }
 
-button {
+.submit-btn {
     margin-top: 10px;
     border-radius: 10px;
-    background-color: white;
+    background-color: #1e90ff;
+    color: #f3f3ff;
+    font-size: 25px;
     cursor: pointer;
+    width: 175px;
+    height: 60px;
 }
 
 .sent-txt {
