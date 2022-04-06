@@ -65,7 +65,7 @@ h3 {
 
 .discord {
     flex: 1;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .discord-img {
@@ -75,6 +75,7 @@ h3 {
 
 .email {
     flex: 1;
+    margin-top: 5px;
 }
 
 .email-btn {
@@ -150,10 +151,22 @@ h3 {
 
 .i-right {
     flex: 1;
+    position: relative;
 }
 
 .me-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    position: absolute;
+}
+
+.right-bg {
+    clip-path: polygon(20% 0%, 100% 0, 100% 20%, 100% 80%, 100% 100%, 20% 100%, 0% 80%, 0% 20%);
+    background-color: #00ff7f;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
 }

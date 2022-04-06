@@ -34,7 +34,7 @@ const Intro = () => {
                 {/* shows user where they can watch me */}
                 <div className="watch">
                     <div className="watch-text">
-                        <h3>watch me play games good:</h3>
+                        <h3>🎮 watch me play games good:</h3>
                     </div>
                     <div className="watch-icons">
                         <div className="yt">
@@ -59,7 +59,7 @@ const Intro = () => {
                 {/* shows user where they can contact me */}
                 <div className="contact">
                     <div className="contact-text">
-                        <h3>get in touch with me:</h3>
+                        <h3>📨 get in touch with me:</h3>
                     </div>
                     <div className="contact-icons">
                         <div className="discord">
@@ -82,7 +82,7 @@ const Intro = () => {
                 {/* show user where they can support me */}
                 <div className="support">
                     <div className="support-txt">
-                        <h3>support me if you wish:</h3>
+                        <h3>🙏🏼 support me if you wish:</h3>
                     </div>
                     <div className="support-icons">
                         <div className="paypal">
@@ -116,6 +116,7 @@ const Intro = () => {
                 </div>
             </div>
             <div className="i-right">
+                <div className="right-bg"></div>
                 <img src={Me} alt="" className="me-img"/>
             </div>
         </div>
