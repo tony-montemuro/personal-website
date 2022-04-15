@@ -23,6 +23,7 @@ h2 {
 
 .about {
     padding: 50px;
+    width: 75%
 }
 
 h3 {
@@ -141,12 +142,26 @@ h3 {
     flex: 1;
 }
 
-.facts-wrapper {
-    padding: 50px;
+.mid-body-wrapper {
+    padding: 25px;
+    margin-right: 50px;
 }
 
-.facts {
-    font-size: 150%;
+.mid-title {
+    font-size: 200%;
+}
+
+.mid-points {
+    font-size: 125%;
+}
+
+li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.vid-link {
+    text-decoration: none;
 }
 
 .i-right {

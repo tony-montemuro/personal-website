@@ -25,6 +25,7 @@ const Intro = () => {
 
     return (
         <div className="i">
+            {/* LEFT */}
             <div className="i-left">
                 <div className="about">
                     <h2>yo! it's</h2>
@@ -104,17 +105,57 @@ const Intro = () => {
                     </div>
                 </div>
             </div>
+
+            {/* MIDDLE */}
             <div className="i-middle">
-                <div className="facts-wrapper">
-                    <h2>on this website you can find:</h2>
-                    <ul className="facts">
-                        <li>my blog</li>
-                        <li>facts about myself</li>
-                        <li>my best video game achievements</li>
-                        <li>future projects</li>
+                <div className="mid-body-wrapper">
+                    <h2 className="mid-title">quick facts about myself:</h2>
+                    <ul className="mid-points">
+                        <li>i am a 21 years old male</li>
+                        <li>
+                            i am currently a computer science major,<br/>
+                            as well as a mathematics minor<br/>
+                        </li>
+                        <li>my favorite artist is porter robinson</li>
+                        <li>my favorite game is mario kart wii</li>
+                        <li>
+                            my favorite overwatch league team is the<br/> 
+                            philadelphia fusion #FusionFighting<br/>
+                        </li>
+                    </ul>
+                </div>
+                <div className="mid-body-wrapper">
+                    <h2 className="mid-title">my best video game achievements:</h2>
+                    <ul className="mid-points">
+                        <li>
+                            super monkey ball 1: e40 5,000
+                            <a className="vid-link"
+                            target="_blank"
+                            href="https://youtu.be/t_DHMziQwI0"
+                            rel="noreferrer"> 📹</a>
+                        </li>
+                        <li>
+                            super monkey ball 2: punched seesaws 33,330 
+                            <a className="vid-link"
+                            target="_blank"
+                            href="https://youtu.be/ZeC-Jn6Ky5s?t=408"
+                            rel="noreferrer"> 📹</a>
+                        </li>
+                        <li>
+                            mario kart wii: gcn waluigi stadium (glitch)<br/>
+                            1:45.860 (previous WR)
+                            <a className="vid-link"
+                            target="_blank"
+                            href="https://youtu.be/3Pfn1HvmVBw"
+                            rel="noreferrer"> 📹</a><br/>
+
+                        </li>
+                        <li>overwatch: 3602 sr on support (masters rank)</li>
                     </ul>
                 </div>
             </div>
+
+
             <div className="i-right">
                 <div className="right-bg"></div>
                 <img src={Me} alt="" className="me-img"/>
