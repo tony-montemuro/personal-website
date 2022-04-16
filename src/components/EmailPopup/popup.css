@@ -11,7 +11,7 @@
 }
 
 .popup-inner-email {
-    position: relative;
+    position: absolute;
     padding: 32px;
     width: 100%;
     max-width: 960px;

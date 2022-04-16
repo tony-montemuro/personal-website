@@ -20,7 +20,7 @@ const Intro = () => {
     const btc = "Bitcoin";
     const eth = "Ethereum";
     const btcWallet = "1P4KZX5BNqHwhzJuaTxrDQ6G9UQ4QVoDmZ";
-    const ethWallet = "0xC114836F49D3C7Ac67B83077D31F5031A20c5BB2";
+    const ethWallet = "0x62A3c8DA7371E496E8C276Db2c0E1D7E64497A4a";
 
 
     return (
@@ -125,22 +125,8 @@ const Intro = () => {
                     </ul>
                 </div>
                 <div className="mid-body-wrapper">
-                    <h2 className="mid-title">my best video game achievements:</h2>
-                    <ul className="mid-points">
-                        <li>
-                            super monkey ball 1: e40 5,000
-                            <a className="vid-link"
-                            target="_blank"
-                            href="https://youtu.be/t_DHMziQwI0"
-                            rel="noreferrer"> 📹</a>
-                        </li>
-                        <li>
-                            super monkey ball 2: punched seesaws 33,330 
-                            <a className="vid-link"
-                            target="_blank"
-                            href="https://youtu.be/ZeC-Jn6Ky5s?t=408"
-                            rel="noreferrer"> 📹</a>
-                        </li>
+                    <h2 className="mid-title">top 5 video game achievements:</h2>
+                    <ol className="mid-points">
                         <li>
                             mario kart wii: gcn waluigi stadium (glitch)<br/>
                             1:45.860 (previous WR)
@@ -150,8 +136,41 @@ const Intro = () => {
                             rel="noreferrer"> 📹</a><br/>
 
                         </li>
+                        <li>
+                            super monkey ball 2: punched seesaws 33,330<br/>
+                            (current WR)
+                            <a className="vid-link"
+                            target="_blank"
+                            href="https://youtu.be/ZeC-Jn6Ky5s?t=408"
+                            rel="noreferrer"> 📹</a>
+                        </li>
+                        <li>
+                            super monkey ball 1: e40 5,000 (tied WR)
+                            <a className="vid-link"
+                            target="_blank"
+                            href="https://youtu.be/t_DHMziQwI0"
+                            rel="noreferrer"> 📹</a>
+                        </li>
                         <li>overwatch: 3602 sr on support (masters rank)</li>
+                        <li>
+                            super monkey ball 2: air hockey 15,550
+                            <a className="vid-link"
+                            target="_blank"
+                            href="https://youtu.be/wAnuhpsxcOk?t=391"
+                            rel="noreferrer"> 📹</a>
+                        </li>
+                    </ol>
+                </div>
+                <div className="mid-body-wrapper">
+                    <h2 className="mid-title">future project ideas:</h2>
+                    <ul className="mid-points">
+                        <li>super monkey ball il website</li>
+                        <li>super monkey ball il discord bot</li>
                     </ul>
+                    <p className="pls-contact">
+                        (please feel free to contact me if you wish to<br/>
+                        help with these!)
+                    </p>
                 </div>
             </div>
 
