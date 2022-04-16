@@ -6,6 +6,20 @@ h2 {
     font-size: 250%;
 }
 
+h3 {
+    font-size: 200%;
+    margin-bottom: 10px;
+}
+
+li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+hr {
+    display: none;
+}
+
 .i {
     display: flex;
     height: 100vh;
@@ -17,18 +31,13 @@ h2 {
     flex: 1;
 }
 
-.watch {
-    padding: 50px;
-}
-
 .about {
-    padding: 50px;
+    padding: 7.5%;
     width: 75%
 }
 
-h3 {
-    font-size: 200%;
-    margin-bottom: 10px;
+.watch {
+    padding: 7.5%;
 }
 
 .watch-icons {
@@ -56,7 +65,7 @@ h3 {
 }
 
 .contact {
-    padding: 50px;
+    padding: 7.5%;
 }
 
 .contact-icons {
@@ -93,7 +102,7 @@ h3 {
 }
 
 .support {
-    padding: 50px;
+    padding: 7.5%;
 }
 
 .support-icons {
@@ -107,7 +116,7 @@ h3 {
 }
 
 .paypal-img {
-    width: 60px;
+    width: 56px;
     height: auto;
 }
 
@@ -139,14 +148,13 @@ h3 {
     height: auto;
 }
 
-.i-midde {
+.i-middle {
     flex: 1;
 }
 
 .mid-body-wrapper {
-    margin-top: 35px;
-    padding: 25px;
-    margin-right: 50px;
+    margin-top: 4.3%;
+    padding: 3.75%;
 }
 
 .mid-title {
@@ -155,11 +163,6 @@ h3 {
 
 .mid-points {
     font-size: 125%;
-}
-
-li {
-    margin-top: 5px;
-    margin-bottom: 5px;
 }
 
 .vid-link {
@@ -189,4 +192,99 @@ li {
     width: 100%;
     height: 100%;
     z-index: 1;
+}
+
+@media screen and (max-width: 1366px) {
+    h1 {
+        font-size: 350%;
+    }
+
+    h2 {
+        font-size: 175%;
+    }
+
+    h3 {
+        font-size: 125%;
+    }
+
+    li {
+        font-size: 73%;
+    }
+
+    p {
+        font-size: 75%;
+    }
+
+    .yt-img {
+        width: 50px;
+    }
+    
+    .twitch-img {
+        width: 35px;
+    }
+
+    .discord-img {
+        width: 50px;
+    }
+
+    .email-img {
+        width: 50px;
+    }
+
+    .paypal-img {
+        width: 35px;
+    }
+
+    .bitcoin-img {
+        width: 45px;
+    }
+
+    .eth-img {
+        width: 45px;
+    }
+
+    .mid-title {
+        font-size: 140%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    hr {
+        display: inline;
+        margin-left: 10px;
+        margin-right: 10px;
+        border: 1px solid #f3f3ff;
+    }
+
+    .i {
+        flex-direction: column;
+    }
+
+    .about {
+        padding: 25px;
+        padding-left: 30px;
+    }
+
+    .watch {
+        padding: 25px;
+        padding-left: 50px;
+    }
+
+    .contact {
+        padding: 25px;
+        padding-left: 50px;
+    }
+
+    .support {
+        padding: 25px;
+        padding-left: 50px;
+    }
+
+    .i-middle {
+        background-color: #222;
+    }
+
+    .i-right {
+        background-color: #222;
+    }
 }

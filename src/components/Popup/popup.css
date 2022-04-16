@@ -8,13 +8,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 2;
 }
 
 .popup-inner {
     position: relative;
     padding: 32px;
     width: 100%;
-    max-width: 480px;
+    max-width: 540px;
     background-color: #333;
     border-radius: 10px;
 }
@@ -32,4 +33,10 @@
 .x-img {
     width: 35px;
     height: 35px;
+}
+
+@media screen and (max-width: 480px) {
+    .popup-inner {
+        width: 80%;
+    }
 }
