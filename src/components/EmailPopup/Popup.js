@@ -41,7 +41,7 @@ function Popup(props) {
             <input type="text" placeholder="Email" name="user_email"/>
             <textarea rows="5" placeholder="Message" name="message"/>
             <button className="submit-btn">Send</button>
-            {done && <p className="sent-txt">Email delivered! Thank you. 😀</p>}
+            {done && <p className="sent-txt">Email sent! Thank you. 😀</p>}
           </form>
         </div>
     </div>

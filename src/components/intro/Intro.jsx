@@ -166,6 +166,7 @@ const Intro = () => {
                     <ul className="mid-points">
                         <li>super monkey ball il website</li>
                         <li>super monkey ball il discord bot</li>
+                        <li>expanding this website</li>
                     </ul>
                     <p className="pls-contact">
                         (please feel free to contact me if you wish to<br/>
@@ -176,8 +177,9 @@ const Intro = () => {
 
 
             <div className="i-right">
-                <div className="right-bg"></div>
-                <img src={Me} alt="" className="me-img"/>
+                <div className="right-bg">
+                    <img src={Me} alt="" className="me-img"/>
+                </div>
             </div>
         </div>
         
