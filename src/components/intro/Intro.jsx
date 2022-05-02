@@ -3,6 +3,7 @@ import "./intro.css"
 import Popup from "../Popup/Popup"
 import EmailPopup from "../EmailPopup/Popup"
 import { useState } from 'react';
+import { Link } from 'react-router-dom'
 
 import YT from "../../img/yt.png"
 import Twitch from "../../img/twitch.png"
