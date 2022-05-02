@@ -110,74 +110,24 @@ const Intro = () => {
 
             {/* MIDDLE */}
             <div className="i-middle">
-                <div className="mid-body-wrapper">
-                    <h2 className="mid-title">quick facts about myself:</h2>
-                    <ul className="mid-points">
-                        <li>i am a 21 year old male</li>
-                        <li>
-                            i am currently a computer science major,<br/>
-                            as well as a mathematics minor<br/>
-                        </li>
-                        <li>my favorite artist is porter robinson</li>
-                        <li>my favorite game is mario kart wii</li>
-                        <li>
-                            my favorite overwatch league team is the<br/> 
-                            philadelphia fusion #FusionFighting<br/>
-                        </li>
-                    </ul>
-                </div>
-                <div className="mid-body-wrapper">
-                    <h2 className="mid-title">top 5 video game achievements:</h2>
-                    <ol className="mid-points">
-                        <li>
-                            mario kart wii: gcn waluigi stadium (glitch)<br/>
-                            1:45.860 (previous WR)
-                            <a className="vid-link"
-                            target="_blank"
-                            href="https://youtu.be/3Pfn1HvmVBw"
-                            rel="noreferrer"> 📹</a><br/>
-
-                        </li>
-                        <li>
-                            super monkey ball 2: punched seesaws 33,330<br/>
-                            (current WR)
-                            <a className="vid-link"
-                            target="_blank"
-                            href="https://youtu.be/ZeC-Jn6Ky5s?t=408"
-                            rel="noreferrer"> 📹</a>
-                        </li>
-                        <li>overwatch: 3602 sr on support (masters rank)</li>
-                        <li>
-                            super monkey ball 1: e40 5,000 (tied WR)
-                            <a className="vid-link"
-                            target="_blank"
-                            href="https://youtu.be/t_DHMziQwI0"
-                            rel="noreferrer"> 📹</a>
-                        </li>
-                        <li>
-                            super monkey ball 2: air hockey 15,550
-                            <a className="vid-link"
-                            target="_blank"
-                            href="https://youtu.be/wAnuhpsxcOk?t=391"
-                            rel="noreferrer"> 📹</a>
-                        </li>
-                    </ol>
-                </div>
-                <div className="mid-body-wrapper">
-                    <h2 className="mid-title">future project ideas:</h2>
-                    <ul className="mid-points">
-                        <li>super monkey ball il website</li>
-                        <li>super monkey ball il discord bot</li>
-                        <li>expanding this website</li>
-                    </ul>
-                    <p className="pls-contact">
-                        (please feel free to contact me if you wish to<br/>
-                        help with these!)
-                    </p>
-                </div>
+                <ul className="navbar-list">
+                    <li className="middle-title">🔎explore:</li>
+                    <li className="navbar-item">
+                        <Link className="link" to="/about">about me</Link>
+                    </li>
+                    <li className="navbar-item">
+                        <Link className="link" to="/blog">blog</Link>
+                    </li>
+                    <li className="navbar-item">
+                        <Link className="link" to="/achievements">gaming achievements</Link>
+                    </li>
+                    <li className="navbar-item">
+                        <Link className="link" to="/projects">future project ideas</Link>
+                    </li>
+                </ul>
             </div>
 
-
+            {/* RIGHT */}
             <div className="i-right">
                 <div className="right-bg">
                     <img src={Me} alt="" className="me-img"/>

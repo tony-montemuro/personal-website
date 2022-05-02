@@ -32,12 +32,14 @@ hr {
 }
 
 .about {
+    margin-left: 25px;
     padding: 7.5%;
     width: 75%
 }
 
 .watch {
     padding: 7.5%;
+    margin-left: 25px;
 }
 
 .watch-icons {
@@ -66,6 +68,7 @@ hr {
 
 .contact {
     padding: 7.5%;
+    margin-left: 25px;
 }
 
 .contact-icons {
@@ -103,6 +106,7 @@ hr {
 
 .support {
     padding: 7.5%;
+    margin-left: 25px;
 }
 
 .support-icons {
@@ -152,25 +156,49 @@ hr {
     flex: 1;
 }
 
-.mid-body-wrapper {
-    margin-top: 4.3%;
-    padding: 3.75%;
-}
-
-.mid-title {
+.middle-title {
+    text-decoration: underline;
+    margin-top: 5%;
+    text-align: center;
     font-size: 200%;
 }
 
-.mid-points {
-    font-size: 125%;
+.navbar-list {
+    font-weight: bold;
+    list-style-type: none;
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
-.vid-link {
+.navbar-item {
+    margin-top: 22%;
+}
+
+.link {
     text-decoration: none;
+    color: #f3f3ff;
+    position: relative;
+    display: inline-block;
 }
 
-.pls-contact {
-    font-style: italic;
+.link:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #f3f3ff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.link:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 
 .i-right {
