@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom'
 
 const About = () => {
     return (
-        <><div className="title">
+        <><div className="a-title">
             <p>
                 <Link className="home" to="/">🏠home</Link>
             </p>
-            <h1 className="title-txt">
+            <h1 className="a-title-txt">
                 about me
             </h1>
         </div>
@@ -21,6 +21,8 @@ const About = () => {
                         i am currently a <strong>computer science major</strong>,
                         as well as a <strong>mathematics minor</strong>
                     </li>
+                    <li>i <strong>won a golf tournament</strong> when i was <strong>11 years old</strong></li>
+                    <li>ten years later, i worked <strong>my first summer job at a golf course</strong></li>
                     <li>my favorite artist is <strong>porter robinson</strong></li>
                     <li>my favorite game is <strong>mario kart wii</strong></li>
                     <li>my favorite show is <strong>avatar: the last airbender</strong></li>
@@ -33,8 +35,6 @@ const About = () => {
                         doerr
                     </li>
                     <li> my favorite podcast is the <strong>lex fridman podcast</strong></li>
-                    <li>i <strong>won a golf tournament</strong> when i was <strong>11 years old</strong></li>
-                    <li>ten years later, i worked <strong>my first summer job at a golf course</strong></li>
                 </ul>
             </div>
             <div className="a-middle">
@@ -70,7 +70,12 @@ const About = () => {
                     <li>
                         i enjoy the study of the universe, also known as <strong>astronomy. </strong>
                         shoutouts to the youtube
-                        channel <a className="txt-link" href="https://www.youtube.com/c/CoolWorldsLab" target="_blank" rel="noreferrer">Cool Worlds</a> for
+                        channel <a
+                            className="txt-link" 
+                            href="https://www.youtube.com/c/CoolWorldsLab" 
+                            target="_blank" 
+                            rel="noreferrer"
+                        >Cool Worlds</a> for
                         reintroducing me to this subject!
                     </li>
                     <li>

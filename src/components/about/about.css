@@ -2,7 +2,7 @@ h2 {
     font-size: 350%;
 }
 
-.title {
+.a-title {
     height: 15vh;
     background-color: #222;
     color: #f3f3ff
@@ -15,7 +15,7 @@ h2 {
     margin-top: 500px;
 }
 
-.title-txt {
+.a-title-txt {
     display: flex;
     justify-content: center;
 }

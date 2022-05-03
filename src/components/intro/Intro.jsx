@@ -122,7 +122,7 @@ const Intro = () => {
                         <Link className="link" to="/achievements">gaming achievements</Link>
                     </li>
                     <li className="navbar-item">
-                        <Link className="link" to="/projects">future project ideas</Link>
+                        <Link className="link" to="/projects">projects</Link>
                     </li>
                 </ul>
             </div>
