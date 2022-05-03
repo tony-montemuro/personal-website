@@ -1,0 +1,41 @@
+.v-title {
+    height: 15vh;
+    background-color: #222;
+    color: #f3f3ff
+}
+
+.v-title-txt {
+    display: flex;
+    justify-content: center;
+}
+
+.v {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 200vh;
+    background-color: #222;
+    color: #f3f3ff;
+}
+
+.v-vid {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+}
+
+.v-desc {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+}
+
+.v-desc-title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.v-desc-desc {
+    margin: 3%;
+}
