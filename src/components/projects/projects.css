@@ -68,3 +68,9 @@
     height: auto;
     background-size: contain;
 }
+
+@media screen and (max-width: 1366px) {
+    li {
+        font-size: 67%;
+    }
+}

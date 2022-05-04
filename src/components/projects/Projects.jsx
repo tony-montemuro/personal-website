@@ -2,19 +2,11 @@ import "./projects.css"
 
 import Sheet from "../../img/sheet.png"
 import Standards from "../../img/standards.png"
-
-import { Link } from 'react-router-dom'
+import Header from "../header/Header"
 
 const Projects = () => {
     return (
-        <><div className="p-title">
-            <p>
-                <Link className="home" to="/">🏠home</Link>
-            </p>
-            <h1 className="p-title-txt">
-                my projects
-            </h1>
-        </div>
+        <><Header title="my projects"></Header>
         <div className="p">
             <p className="p-info">
                 below are some projects i have worked on, as well as projects that i wish to

@@ -1,7 +1,7 @@
 import "./intro.css"
 
-import Popup from "../Popup/Popup"
-import EmailPopup from "../EmailPopup/Popup"
+import Popup from "../popup/Popup"
+import EmailPopup from "../emailPopup/Popup"
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 
@@ -106,7 +106,6 @@ const Intro = () => {
                     </div>
                 </div>
             </div>
-            <hr></hr>
 
             {/* MIDDLE */}
             <div className="i-middle">
@@ -115,9 +114,6 @@ const Intro = () => {
                     <li className="navbar-item">
                         <Link className="link" to="/about">about me</Link>
                     </li>
-                    {/* <li className="navbar-item">
-                        <Link className="link" to="/blog">blog</Link>
-                    </li> */}
                     <li className="navbar-item">
                         <Link className="link" to="/achievements">gaming achievements</Link>
                     </li>

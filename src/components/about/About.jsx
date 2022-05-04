@@ -1,17 +1,10 @@
 import "./about.css"
 
-import { Link } from 'react-router-dom'
+import Header from "../header/Header"
 
 const About = () => {
     return (
-        <><div className="a-title">
-            <p>
-                <Link className="home" to="/">🏠home</Link>
-            </p>
-            <h1 className="a-title-txt">
-                about me
-            </h1>
-        </div>
+        <><Header title="about me"></Header>
         <div className="a">
             <div className="a-left">
                 <h2 className="a-header">quick facts</h2>
@@ -28,7 +21,7 @@ const About = () => {
                     <li>my favorite show is <strong>avatar: the last airbender</strong></li>
                     <li>
                         my favorite overwatch league team is the <strong>philadelphia
-                        fusion</strong> #FusionFighting
+                            fusion</strong> #FusionFighting
                     </li>
                     <li>
                         my favorite book is <strong>cloud cuckoo land</strong> by anthony
@@ -64,16 +57,16 @@ const About = () => {
                 <h2 className="a-header">interests</h2>
                 <ul className="points">
                     <li>
-                        generally speaking, i enjoy almost all things <strong>mathematics. </strong>
+                        generally speaking, i enjoy almost all things <strong>mathematics.</strong>
                         for many years, it has been my favorite subject.
                     </li>
                     <li>
-                        i enjoy the study of the universe, also known as <strong>astronomy. </strong>
+                        i enjoy the study of the universe, also known as <strong>astronomy.</strong>
                         shoutouts to the youtube
                         channel <a
-                            className="txt-link" 
-                            href="https://www.youtube.com/c/CoolWorldsLab" 
-                            target="_blank" 
+                            className="txt-link"
+                            href="https://www.youtube.com/c/CoolWorldsLab"
+                            target="_blank"
                             rel="noreferrer"
                         >Cool Worlds</a> for
                         reintroducing me to this subject!

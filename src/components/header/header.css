@@ -1,0 +1,17 @@
+.title {
+    height: 15vh;
+    background-color: #222;
+    color: #f3f3ff
+}
+
+.home {
+    text-decoration: none;
+    color: #f3f3ff;
+    font-size: 200%;
+    margin-top: 500px;
+}
+
+.title-txt {
+    display: flex;
+    justify-content: center;
+}

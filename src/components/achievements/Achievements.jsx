@@ -1,17 +1,10 @@
 import "./achievements.css"
 
-import { Link } from 'react-router-dom'
+import Header from "../header/Header"
 
 const Achievements = () => {
     return (
-        <><div className="v-title">
-            <p>
-                <Link className="home" to="/">🏠home</Link>
-            </p>
-            <h1 className="v-title-txt">
-                gaming achievements: my top 4
-            </h1>
-        </div>
+        <><Header title="gaming achievements: my top 4"></Header>
         <div className="v">
             <div className="v-vid">
             <iframe

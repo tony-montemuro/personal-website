@@ -271,19 +271,16 @@ hr {
         width: 45px;
     }
 
-    .mid-title {
-        font-size: 140%;
+    .middle-title {
+        font-size: 175%;
+    }
+
+    .navbar-item {
+        margin-top: 26%;
     }
 }
 
 @media screen and (max-width: 480px) {
-    hr {
-        display: inline;
-        margin-left: 10px;
-        margin-right: 10px;
-        border: 1px solid #f3f3ff;
-    }
-
     .i {
         flex-direction: column;
     }
@@ -291,6 +288,7 @@ hr {
     .about {
         padding: 25px;
         padding-left: 30px;
+        margin-right: 12px;
     }
 
     .watch {
@@ -309,11 +307,7 @@ hr {
     }
 
     .i-middle {
-        background-color: #222;
-    }
-
-    .middle-title {
-        font-size: 150%;
+        display: none;
     }
 
     .i-right {
