@@ -115,9 +115,9 @@ const Intro = () => {
                     <li className="navbar-item">
                         <Link className="link" to="/about">about me</Link>
                     </li>
-                    <li className="navbar-item">
+                    {/* <li className="navbar-item">
                         <Link className="link" to="/blog">blog</Link>
-                    </li>
+                    </li> */}
                     <li className="navbar-item">
                         <Link className="link" to="/achievements">gaming achievements</Link>
                     </li>

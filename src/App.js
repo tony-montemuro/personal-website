@@ -1,6 +1,5 @@
 import Intro from "./components/intro/Intro";
 import About from "./components/about/About";
-import Blog from "./components/blog/Blog"
 import Achievements from "./components/achievements/Achievements";
 import Projects from "./components/projects/Projects";
 
@@ -11,7 +10,6 @@ const App = () => {
     <div>
       <Routes><Route path="/" element={<Intro />}/></Routes>
       <Routes><Route path="/about" element={<About />} /></Routes>
-      <Routes><Route path="/blog" element={<Blog />}/></Routes>
       <Routes><Route path="/achievements" element={<Achievements />}/></Routes>
       <Routes><Route path="/projects" element={<Projects />}/></Routes>
     </div>

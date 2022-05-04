@@ -174,7 +174,7 @@ const Projects = () => {
                     <p className="p-sec-desc">
                         i think if i manage to create a website with all of these features, it can be a success, and i will be fairly satisfied. at the same
                         time, if i do manage to make this website, it has the potential to be more than just a 'better cyberscore.' i have some more ideas
-                        that could be added to an second iteration of the website:
+                        that could be added to a second iteration of the website:
                     </p>
                     <ul className="p-list">
                         <li>

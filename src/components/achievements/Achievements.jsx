@@ -40,7 +40,7 @@ const Achievements = () => {
                     as you can see in the video, i played the level for 8 hours, 44 minutes, and 43 seconds before getting the
                     tie, and my best score i achieved before the 5000 was a 4800, which is a run with two missed bananas.
                     what makes my tie so special on this level is that i managed to skip 4900, which is pratically unheard of
-                    on this level. also, taking less than ten hours to tie this record is also quite impressive, as many others who
+                    on this level. also, taking less than ten hours to tie this record is quite impressive, as many others who
                     have tied this record took far longer to achieve 5000. with this information, it definitely makes it sound
                     like my tie was a fluke. i don't like to think of it this way, despite the fact that it's probably true.
                     however, it's important to note that i got my first 4800 just over four hours into attempts, so at least
@@ -109,7 +109,7 @@ const Achievements = () => {
             </div>
             <div className="v-desc">
                 <h2 className="v-desc-title">
-                    number 1: GCN Waluigi Stadium (Glitch) - 1:45.860
+                    number 1: GCN Waluigi Stadium (Glitch) - 1:45.860 (Former WR)
                 </h2>
                 <p className="v-desc-desc">
                     of all the crazy things i have done in video games, nothing has ever come close to the satisfaction and happniess i felt
@@ -135,7 +135,8 @@ const Achievements = () => {
                     and mistimed the hop,</strong> and <strong>2 times where I actually got the glitch but with no lap count.</strong> after griding attempts
                     of this glitch for two weeks straight, many hours a day, at around 2:30 in the morning, i pulled it off the 1:45.860 while in a discord call
                     with one of my friends. it was really late, so i ended up having the most intense yet quiet pop off of my life after crossing the finish line
-                    on lap 3. this was most likely the last time in my life i will ever have the time to grind in a video game super hard, so for that reason, 
+                    on lap 3. although it was only world record for around 24 hours, just having my name in the game's permanent history is something i will
+                    cherish forever. this was most likely the last time in my life i will ever have the time to grind in a video game super hard, so for that reason, 
                     i don't think any future achievement in a game will ever top this one.
                 </p>
             </div>
