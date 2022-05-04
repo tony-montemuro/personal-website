@@ -13,7 +13,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 200vh;
+    height: 225vh;
     background-color: #222;
     color: #f3f3ff;
 }
@@ -38,4 +38,8 @@
 
 .v-desc-desc {
     margin: 3%;
+}
+
+.v-link {
+    color: #f3f3ff
 }
