@@ -13,6 +13,8 @@ const Projects = () => {
                 work on in the future
             </p>
             <div className="p-split">
+
+                {/* LEFT */}
                 <div className="p-left">
                     <h3 className="p-sec-title">completed projects</h3>
                     <p className="p-sec-desc">
@@ -30,7 +32,7 @@ const Projects = () => {
                         the exception to this are moderators, who have access to all cells on the
                         sheet. for each sheet (which corresponds to a game and il type), <strong>each player
                         has a point value and medals count</strong> (gold, silver, and bronze) assigned to them. 
-                        <strong> as users submit more pbs, the number of points they recieve increases </strong> 
+                        <strong> as users submit more pbs, the number of points they receive increases </strong> 
                         (they get more points for better submissions), and they can climb the ranks, as the ordering of
                         players is determined by number of points. (note: the sheet does not automatically
                         do ordering. this is done by moderators. however, the sheet will let the moderators know
@@ -88,9 +90,11 @@ const Projects = () => {
                     <p className="p-sec-desc">
                         for the reason listed above, i am not totally content with this sheet. thus, i like to think of the sheet
                         as a temporary solution to a problem the monkey ball il community has had for years: the lack of a good
-                        leaderboad. thus, the future project i wish to work on will hopefully be a solution to this problem.
+                        leaderboard. thus, the future project i wish to work on will hopefully be a solution to this problem.
                     </p>
                 </div>
+
+                {/* RIGHT */}
                 <div className="p-right">
                     <h3 className="p-sec-title">future projects</h3>
                     <p className="p-sec-desc">
@@ -132,8 +136,8 @@ const Projects = () => {
                     <p className="p-sec-desc">
                         as you can tell, all of these boards serve different purposes, but they are all related. in fact, i would argue that
                         the creation of a website similar to cyberscore, but with stronger proof requirements, as well as control from the smb
-                        commuity, would be able to do everything the other boards can do, but in one central location. thus, adoption for this
-                        website will be a no-brainer, as it will be the most convinent, and best, option. here is a list of features i believe
+                        community, would be able to do everything the other boards can do, but in one central location. thus, adoption for this
+                        website will be a no-brainer, as it will be the most convenient, and best, option. here is a list of features i believe
                         this website must have at a bare minimum in order for it to be successful:
                     </p>
                     <ul className="p-list">

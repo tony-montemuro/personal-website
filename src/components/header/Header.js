@@ -2,6 +2,7 @@ import "./header.css";
 
 import { Link } from 'react-router-dom'
 
+// takes a single prop (title) and creates and returns a header component
 function Header(props) {
     return (
         <div className="title">

@@ -222,6 +222,8 @@ hr {
     z-index: 1;
 }
 
+
+/* responsivenss for medium sized screens */
 @media screen and (max-width: 1366px) {
     h1 {
         font-size: 350%;
@@ -280,6 +282,8 @@ hr {
     }
 }
 
+
+/* responsiveness for mobile screens */
 @media screen and (max-width: 480px) {
     .i {
         flex-direction: column;

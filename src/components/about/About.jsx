@@ -6,6 +6,8 @@ const About = () => {
     return (
         <><Header title="about me"></Header>
         <div className="a">
+
+            {/* LEFT */}
             <div className="a-left">
                 <h2 className="a-header">quick facts</h2>
                 <ul className="points">
@@ -30,6 +32,8 @@ const About = () => {
                     <li> my favorite podcast is the <strong>lex fridman podcast</strong></li>
                 </ul>
             </div>
+
+            {/* MIDDLE */}
             <div className="a-middle">
                 <h2 className="a-header">hobbies</h2>
                 <ul className="points">
@@ -49,19 +53,21 @@ const About = () => {
                     </li>
                     <li>
                         <strong>bike rides:</strong> although this one is not as serious, riding my bike
-                        is one of my favorite ways to excercise, as well as destress.
+                        is one of my favorite ways to exercise, as well as destress.
                     </li>
                 </ul>
             </div>
+
+            {/* RIGHT */}
             <div className="a-right">
                 <h2 className="a-header">interests</h2>
                 <ul className="points">
                     <li>
-                        generally speaking, i enjoy almost all things <strong>mathematics.</strong>
+                        generally speaking, i enjoy almost all things <strong>mathematics. </strong>
                         for many years, it has been my favorite subject.
                     </li>
                     <li>
-                        i enjoy the study of the universe, also known as <strong>astronomy.</strong>
+                        i enjoy the study of the universe, also known as <strong>astronomy. </strong>
                         shoutouts to the youtube
                         channel <a
                             className="txt-link"

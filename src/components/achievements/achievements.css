@@ -1,14 +1,3 @@
-.v-title {
-    height: 15vh;
-    background-color: #222;
-    color: #f3f3ff
-}
-
-.v-title-txt {
-    display: flex;
-    justify-content: center;
-}
-
 .v {
     display: flex;
     flex-direction: row;

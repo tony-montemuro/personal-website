@@ -53,6 +53,8 @@ h2 {
     flex: 1;
 }
 
+
+/* responsiveness for medium sized screens */
 @media screen and (max-width: 1366px) {
     h2 {
         font-size: 200%;

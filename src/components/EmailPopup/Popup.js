@@ -4,6 +4,8 @@ import emailjs from '@emailjs/browser';
 import "./popup.css"
 import XButton from "../../img/x.png"
 
+// takes two props (trigger and setTrigger) and creates an email fourm, where users can send
+// me emails
 function Popup(props) {
   const formRef = useRef();
   const [done, setDone] = useState(false);
