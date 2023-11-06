@@ -1,6 +1,6 @@
 import "./intro.css"
 
-import Popup from "../popup/Popup"
+import Popup from "../Popup/Popup"
 import EmailPopup from "../emailPopup/Popup"
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
