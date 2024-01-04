@@ -5,20 +5,23 @@
     background: linear-gradient(120deg, rgba(2,0,36,1) 0%, rgba(52,125,88,0.65) 100%);
 }
 
-.home-left {
-    flex: 1;
+.home-half {
     display: flex;
+    flex: 1;
+    height: 100%;
+}
+
+.home-left {
     flex-direction: column;
     justify-content: space-around;
-    height: 100%;
     padding: 0 10px;
 }
 
 .home-left-section {
     display: flex;
     flex-direction: column;
-    width: fit-content;
     width: -moz-fit-content;
+    width: fit-content;
     margin-left: auto;
     margin-right: auto;
     gap: 10px;
@@ -43,8 +46,5 @@
 }
 
 .home-right {
-    flex: 1;
-    height: 100%;
-    display: flex;
     justify-content: center;
 }
