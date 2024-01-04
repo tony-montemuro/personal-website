@@ -1,0 +1,48 @@
+.home {
+    display: flex;
+    height: 100vh;
+}
+
+.home-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+    padding: 10px;
+}
+
+.home-left-section {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    width: moz-fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 8px;
+    font-size: 200%;
+}
+
+.home-icons {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home-icon {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.home-svg {
+    width: 75px;
+    height: 75px;
+}
+
+.home-middle {
+    flex: 1;
+}
+
+.home-right {
+    flex: 1;
+}
