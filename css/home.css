@@ -1,6 +1,8 @@
 .home {
     display: flex;
     height: 100vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(120deg, rgba(2,0,36,1) 0%, rgba(52,125,88,0.65) 100%);
 }
 
 .home-left {
@@ -8,19 +10,20 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 100vh;
-    padding: 10px;
+    height: 100%;
+    padding: 0 10px;
 }
 
 .home-left-section {
     display: flex;
     flex-direction: column;
     width: fit-content;
-    width: moz-fit-content;
+    width: -moz-fit-content;
     margin-left: auto;
     margin-right: auto;
-    gap: 8px;
+    gap: 10px;
     font-size: 200%;
+    text-align: center;
 }
 
 .home-icons {
@@ -39,10 +42,9 @@
     height: 75px;
 }
 
-.home-middle {
-    flex: 1;
-}
-
 .home-right {
     flex: 1;
+    height: 100%;
+    display: flex;
+    justify-content: center;
 }
