@@ -1,6 +1,6 @@
 .home {
     display: flex;
-    height: 100vh;
+    height: 92vh;
     background: rgb(2,0,36);
     background: linear-gradient(120deg, rgba(2,0,36,1) 0%, rgba(52,125,88,0.65) 100%);
 }
