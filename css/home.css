@@ -1,8 +1,3 @@
-.home {
-    display: flex;
-    height: 92vh;
-}
-
 .home-half {
     display: flex;
     flex: 1;

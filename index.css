@@ -16,6 +16,11 @@
     background: linear-gradient(120deg, rgba(var(--color-bg),1) 0%, rgba(52,125,88,0.65) 100%);
 }
 
+#content {
+    display: flex;
+    height: 92vh;
+}
+
 #navbar {
     background-color: rgba(var(--color-bg),0.6);
     height: 8vh;
