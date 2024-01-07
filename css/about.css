@@ -1,0 +1,24 @@
+.about {
+    flex-direction: column;
+    padding: 20px;
+}
+
+.about h1 {
+    font-size: 400%;
+}
+
+.about h2 {
+    font-size: 300%;
+}
+
+.about hr {
+    margin: 10px 0;
+}
+
+.about-section {
+    
+}
+
+.about-section {
+    font-size: 200%;
+}
