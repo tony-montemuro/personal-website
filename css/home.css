@@ -42,6 +42,10 @@
     height: 75px;
 }
 
+#email, #venmo, #bitcoin {
+    cursor: pointer;
+}
+
 .home-right {
     justify-content: center;
 }
