@@ -11,6 +11,15 @@
     font-family: 'Fredoka', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: #ADD8E6;
+}
+
+strong {
+    text-shadow: 0 0 3px var(--color-text);
+}
+
 #body {
     background: rgb(var(--color-bg));
     background: linear-gradient(120deg, rgba(var(--color-bg),1) 0%, rgba(52,125,88,0.65) 100%);
