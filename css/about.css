@@ -101,6 +101,10 @@
     max-width: calc(100% - 1px);
 }
 
+#porter {
+    white-space: nowrap;
+}
+
 @media (max-width: 1500px) {
     .about-section {
         flex-direction: column;
