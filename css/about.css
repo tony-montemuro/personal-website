@@ -65,7 +65,10 @@
 }
 
 .slides {
-    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 2rem;
+    width: calc(100% - 4rem);
     height: 100%;
     display: flex;
     list-style: none;
@@ -93,6 +96,22 @@
 }
 
 .slide img {
+    min-height: auto;
     height: 100%;
-    width: auto;
+    max-width: calc(100% - 1px);
+}
+
+@media (max-width: 1500px) {
+    .about-section {
+        flex-direction: column;
+    }
+
+    .about-text {
+        flex: 1;
+    }
+
+    .about-carousel {
+        min-height: 500px;
+        flex: 1;
+    }
 }
