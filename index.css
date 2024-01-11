@@ -16,6 +16,19 @@ a {
     color: #ADD8E6;
 }
 
+button {
+    cursor: pointer;
+}
+
+hr {
+    margin: 10px 0;
+    opacity: 0.7;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}
+
 strong {
     text-shadow: 0 0 3px var(--color-text);
 }
