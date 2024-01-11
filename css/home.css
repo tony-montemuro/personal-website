@@ -50,9 +50,16 @@
     justify-content: center;
 }
 
+.modal-shown {
+    display: flex;
+}
+
+.modal-hide {
+    display: none;
+}
+
 #modal-bg {
     position: absolute;
-    display: flex;
     justify-content: center;
     align-items: center;
     top: 0;
