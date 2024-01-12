@@ -147,3 +147,47 @@
     align-items: center;
     gap: 10px;
 }
+
+@media (max-width: 1200px) {
+    .home {
+        height: unset;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .home-left {
+        gap: 50px;
+    }
+
+    .home-right img {
+        width: 50%;
+    }
+}
+
+@media (max-width: 570px) {
+    .home {
+        height: 92vh;
+    }
+
+    .home-left {
+        gap: 0px;
+    }
+
+    .home-right {
+        display: none;
+    }
+
+    .home-left-section {
+        font-size: 150%;
+    }
+
+    .home-svg {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .home-icon {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
