@@ -131,8 +131,19 @@
     border-radius: 5px;
     border: 0;
     font-size: 150%;
-    margin-top: 5px;
     padding: 7px 10px;
     width: -moz-fit-content;
     width: fit-content;
+}
+
+#form button:disabled {
+    opacity: 0.5;
+    cursor: default;
+}
+
+#form-end {
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+    gap: 10px;
 }

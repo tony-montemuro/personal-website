@@ -11,8 +11,7 @@
 		<link href="https://fonts.googleapis.com/css2?family=Fredoka&family=Gabarito&display=swap" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="index.css"/>
 		<link rel="stylesheet" type="text/css" href="css/home.css"/>
-		<script src="js/index.js"></script>
-		<script src="js/home.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/emailjs-com/dist/email.min.js"></script>
 	</head>
 	<body>
 		<div id="body">
@@ -87,17 +86,22 @@
 				<hr>
 
 				<form id="form">
-					<label for="name">Name:</label>
-					<input id="name" type="text" placeholder="Your name" required>
-					<label for="subject">Subject:</label>
-					<input id="subject" type="text" placeholder="Your subject" required>
-					<label for="email">Email:</label>
-					<input id="email" type="email" placeholder="Your email" required>
+					<label for="user_name">Name:</label>
+					<input id="user_name" name="user_name" type="text" placeholder="Your name" required>
+					<label for="user_subject">Subject:</label>
+					<input id="user_subject" name="user_subject" type="text" placeholder="Your subject" required>
+					<label for="user_email">Email:</label>
+					<input id="user_email" name="user_email" type="email" placeholder="Your email" required>
 					<label for="message">Message:</label>
-					<textarea id="message" rows="10" placeholder="Enter your message here..." spellcheck="true" required></textarea>
-					<button type="submit">Send</button>
+					<textarea id="message" name="message" rows="10" placeholder="Enter your message here..." spellcheck="true" required></textarea>
+					<div id="form-end">
+						<button id="send-btn" type="submit">Send</button>
+						<span id="send-msg"></span>
+					</div>
 				</form>
 			</div>
 		</div>
 	</body>
+	<script type="module" src="js/index.js"></script>
+	<script type="module" src="js/home.js"></script>
 </html>
