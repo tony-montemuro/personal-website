@@ -1,0 +1,22 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "This website was my first react app, but I am currently in the process of rewriting it in vanilla HTML/CSS/JavaScript. Some of the information on the website is also outdated, but should be updated soon.",
+  "main": "js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tony-montemuro/personal-website.git"
+  },
+  "author": "Tony Montemuro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tony-montemuro/personal-website/issues"
+  },
+  "homepage": "https://github.com/tony-montemuro/personal-website#readme",
+  "dependencies": {
+    "@emailjs/browser": "^3.12.1"
+  }
+}
