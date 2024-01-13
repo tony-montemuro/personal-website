@@ -18,17 +18,18 @@ document.getElementById("navbar-mobile").innerHTML = `
             <rect fill="#fff" y="70" width="100" height="20" rx="6"></rect>
         </svg>
     </nav>
-    <div class="navbar-mobile-menu hide-menu">
-        <div id="menu-exit-wrapper">
-            <button type="button" id="menu-exit" class="close-btn">×</button>
-        </div>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about.html">About</a></li>
-            <li><a href="/projects.html">Projects</a></li>
-            <li><a href="/achievements.html">Gaming Achievements</a></li>
-        </ul>
+`;
+
+document.querySelector(".navbar-mobile-menu").innerHTML = `
+    <div id="menu-exit-wrapper">
+        <button type="button" id="menu-exit" class="close-btn">×</button>
     </div>
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/projects.html">Projects</a></li>
+        <li><a href="/achievements.html">Gaming Achievements</a></li>
+    </ul>
 `;
 
 // FUNCTIONS
