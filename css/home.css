@@ -1,5 +1,5 @@
 .home {
-    height: 92vh;
+    height: calc(100vh - var(--nav-height));
 }
 
 .home-half {
@@ -105,21 +105,6 @@
     justify-content: flex-end;
 }
 
-#close-btn {
-    background-color: transparent;
-    border: 0;
-    color: #FF474C;
-    opacity: 0.6;
-    display: inline-block;
-    font-size: 2.5rem;
-    padding: 0;
-    text-align: center;
-}
-
-#close-btn:hover {
-    opacity: 1;
-}
-
 #form {
     display: flex;
     flex-direction: column;
@@ -166,7 +151,7 @@
 
 @media (max-width: 570px) {
     .home {
-        height: 92vh;
+        height: calc(100vh - var(--nav-height));
     }
 
     .home-left {

@@ -3,6 +3,7 @@
     --color-text: #fff;
     --color-link: #d3d3d3;
     --color-bg: 2,0,36;
+    --nav-height: 8vh;
 }
 
 * {
@@ -18,6 +19,10 @@ a {
 
 button {
     cursor: pointer;
+}
+
+body:has(".show-menu") {
+    overflow-y: hidden;
 }
 
 hr {
@@ -43,11 +48,77 @@ strong {
 }
 
 #navbar {
-    background-color: rgba(var(--color-bg),0.6);
-    height: 8vh;
+    background-color: rgba(var(--color-bg), 0.6);
+    height: var(--nav-height);
     display: flex;
     align-items: center;
     font-size: 150%;
+}
+
+#navbar-mobile {
+    display: none;
+    background-color: rgba(var(--color-bg), 0.6);
+    height: var(--nav-height);
+    align-items: center;
+    justify-content: right;
+    padding-right: 20px;
+}
+
+.navbar-mobile-menu {
+    display: none;
+}
+
+.show-menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    padding: 15px;
+    gap: 30px;
+    overflow: hidden;
+}
+
+.show-menu ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 200%;
+}
+
+.show-menu li {
+    padding: 3px 0;
+}
+
+#menu-exit-wrapper {
+    display: flex;
+    justify-content: right;
+    padding-right: 25px;
+}
+
+.close-btn {
+    background-color: transparent;
+    border: 0;
+    color: #FF474C;
+    opacity: 0.6;
+    display: inline-block;
+    font-size: 2.5rem;
+    padding: 0;
+    text-align: center;
+}
+
+.close-btn:hover {
+    opacity: 1;
+}
+
+#menu-exit {
+    font-size: 3.5rem;
+}
+
+#hamburger {
+    cursor: pointer;
 }
 
 #navbar nav {
@@ -89,4 +160,14 @@ strong {
 #navbar a:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
+}
+
+@media (max-width: 570px) {
+    #navbar {
+        display: none;
+    }
+    
+    #navbar-mobile {
+        display: flex;
+    }
 }
