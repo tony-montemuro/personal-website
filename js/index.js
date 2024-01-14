@@ -1,4 +1,10 @@
 // Set navbar HTML
+document.getElementsByTagName("header")[0].innerHTML = `
+    <div id="navbar" class="nav"></div>
+    <div id="navbar-mobile" class="nav"></div>
+    <div class="navbar-mobile-menu hide-menu"></div>
+`;
+
 document.getElementById("navbar").innerHTML = `
     <nav>
         <ul>
