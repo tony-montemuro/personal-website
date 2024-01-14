@@ -1,0 +1,27 @@
+.projects {
+    padding: 20px;
+    flex-direction: column;
+}
+
+.projects h1 {
+    font-size: 300%;
+}
+
+.projects h2 {
+    font-size: 200%;
+}
+
+.projects span {
+    font-size: 150%;
+}
+
+.projects-list {
+    padding-top: 15px;
+    gap: 15px;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
