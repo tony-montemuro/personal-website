@@ -11,12 +11,11 @@
     font-size: 200%;
 }
 
-.projects span {
+.projects span, .projects p, .projects li {
     font-size: 150%;
 }
 
 .projects-list {
-    padding-top: 15px;
     gap: 15px;
 }
 
