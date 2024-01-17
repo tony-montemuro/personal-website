@@ -52,6 +52,22 @@
           </ul>
           <span>With all that being said, I am still relatively happy with how it turned out. By the time this update came out, custom level creators were starting to release custom games, so I decided that, going forward, their was <strong>no longer a need for Community Level Packs</strong>. <em>I have no affiliation with any community level packs after this release. I do find it cool that further updates were inspiried by the originals!</em></span>
         </div>
+
+        <hr>
+
+        <div class="project">
+          <h2>Super Monkey Ball Live IL Sheet (2022-04-07)</h2>
+          <span>The <strong>Super Monkey Ball Live IL Spreadsheet</strong> was a Google Sheets page in which users could submit their best score & time ILs, with the rule that <strong>submissions must have a live recording.</strong> By using protected ranges, the sheet was designed such that <strong>users were only able to edit cells that 'belong to them'</strong>, which is any row with their name in the left-most cell. The only exception to this condition were <strong>moderators</strong>, who had access to every cells on the sheet.</span>
+          <span>For each sheet, which corresonded to a game and IL type, each player had a <strong>point value</strong> and <strong>medals count</strong> (gold, silver, & bronze) assigned to them. As users submit more PBs, the number of points they recieved increased (more points were awarded to better submissions), and they could climb the ranks, as the <strong>ordering of players</strong> was determined by the <strong>nubmer of points</strong>. <strong>Gold, silver, & bronze medals</strong> were awarded to <strong>first, second, & third place</strong> score/time submissions respectively.</span>
+          <span>Emperically, this project was a failure. This is evidenced by the fact that pratically no one used the sheet, <em>not even myself!</em> There are many good reasons this project never took off:</span>
+          <ol>
+            <li><strong>Bad UI:</strong> By far, the weakest aspect of using Google Sheets as a leaderboard is that it makes for a poor user interface. The information density per page is far too high, and it takes too long to learn for most people.</li>
+            <li><strong>Bugs were common:</strong> The primary reason for this is because I <strong>did not design this project from the ground up</strong>. The <a href="https://docs.google.com/spreadsheets/d/12wDUXjLqmcUuWSEXWc1fHNJc24KlfyCh0pvibZYEQM0/edit#gid=0">original spreadsheet</a> was created by <a href="https://shoutplenty.netlify.app/" target="_blank">shoutplenty</a>, a Super Mario Sunshine speedrunner, who created the spreadsheet to track Sunshine ILs. I cloned the original sheet, created the boards for each game, reimplemented some features that did not transfer over, and tested for bugs. Because of this, <strong>I never fully understood the system</strong>: I simple mangled it until it worked for Monkey Ball. After I released the project, I encountered countless formatting & state update issues. Thankfully, I was usually able to fix them, but that was never a guarantee. [Huge shoutout to <a href="https://shoutplenty.netlify.app/" target="_blank">shoutplenty</a>, for all the help he provided along the way.]</li>
+            <li><strong>The burden on the user:</strong> The burden of filling the boards <strong>fell on the users.</strong> This is something I could have helped alleviate by submitting on behalf of people, but honestly, I lost interest in this project pretty quickly.</li>
+            <li><strong>Core features missing:</strong> Things like <strong>totalizers</strong> were impossible to implement, due to how the data was represented on the sheet.</li>
+          </ol>
+          <span>Combine all these together, and you have a product that's just not enticing to anyone, <em>not even myself</em>! I stopped using the sheet just a couple months after release. The main takeaway from this project? <strong>If you want to make a transformative product, you need to do a damn good job!</strong> My hope was that this leaderboard could be the IL community's new home, but it simply was not good enough. With the mistakes made on this project, I aimed to give it another shot with my next project.</span>
+        </div>
       <script type="module" src="js/index.js"></script>
       <script type="module" src="js/home.js"></script>
     </div>
