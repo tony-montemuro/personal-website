@@ -20,12 +20,51 @@
     gap: 15px;
 }
 
+.player-wrapper {
+    width: 1000px;
+    height: 563px;
+}
+
 .player {
-    width: 800px;
-    height: 450px;
+    width: 100%;
+    height: 100%;
 }
 
 .fr {
     float: right;
     padding-left: 10px;
+}
+
+.projects img {
+    max-width: 1000px;
+    height: auto;
+}
+
+#logo {
+    width: 256px;
+    height: 256px;
+}
+
+/* ===== MEDIA QUERIES FOR SMALLER DEVICES ===== */
+
+@media (max-width: 1040px) {
+    .projects img {
+        width: 100%;
+    }
+
+    .player {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+
+    .player-wrapper {
+        position: relative;
+        overflow: hidden;
+        padding-top: 56.25%;
+        width: 100%;
+        height: auto;
+    }
 }
