@@ -1,0 +1,13 @@
+.achievements {
+    padding: 20px;
+    flex-direction: column;
+}
+
+.achievements span, .achievements p, .achievements li {
+    font-size: 24px;
+}
+
+.achievements h2 {
+    font-size: 250%;
+    padding-bottom: 10px;
+}
