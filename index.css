@@ -189,6 +189,54 @@ strong {
     transform-origin: bottom left;
 }
 
+.fr {
+    float: right;
+    padding-left: 10px;
+}
+
+.article-img {
+    max-width: 1000px;
+    height: auto;
+}
+
+.player-wrapper {
+    width: 1000px;
+    height: 563px;
+}
+
+.player {
+    width: 100%;
+    height: 100%;
+}
+
+/* ===== MEDIA QUERIES FOR SMALLER DEVICES ===== */
+
+@media (max-width: 1040px) {
+    .article-img {
+        width: 100%;
+    }
+
+    .player {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+
+    .player-wrapper {
+        position: relative;
+        overflow: hidden;
+        padding-top: 56.25%;
+        width: 100%;
+        height: auto;
+    }
+
+    .video-fig {
+        width: 100%;
+    }
+}
+
 @media (max-width: 570px) {
     #navbar {
         display: none;
