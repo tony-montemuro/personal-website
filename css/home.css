@@ -77,6 +77,7 @@
     background-color: #333;
     max-width: 1000px;
     border-radius: 10px;
+    padding: var(--app-padding);
 }
 
 #modal h2 {

@@ -1,5 +1,6 @@
 .projects {
     flex-direction: column;
+    padding: var(--app-padding);
 }
 
 .projects h2 {

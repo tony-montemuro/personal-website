@@ -1,5 +1,6 @@
 .about {
     flex-direction: column;
+    padding: var(--app-padding);
 }
 
 .about h2 {

@@ -1,5 +1,6 @@
 .achievements {
     flex-direction: column;
+    padding: var(--app-padding);
 }
 
 .achievements span, .achievements p, .achievements li {
