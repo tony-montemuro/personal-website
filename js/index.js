@@ -43,13 +43,16 @@ document.querySelector(".navbar-mobile-menu").innerHTML = `
 // function that toggles the navbar mobile menu on and off
 const toggleMobileMenu = () => {
     const mobileMenu = document.querySelector(".navbar-mobile-menu");
+    const header = document.getElementsByTagName("header")[0];
     if (mobileMenu.classList.contains("hide-menu")) {
         mobileMenu.classList.add("show-menu");
         mobileMenu.classList.remove("hide-menu");
+        header.classList.remove("stick");
         document.body.style.overflow = "hidden";
     } else {
         mobileMenu.classList.add("hide-menu");
         mobileMenu.classList.remove("show-menu");
+        header.classList.add("stick");
         document.body.style.overflow = "scroll";
     }
 };
