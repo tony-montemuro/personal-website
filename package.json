@@ -1,48 +1,22 @@
 {
   "name": "personal-website",
-  "homepage": "http://tonysmb.com/",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@emailjs/browser": "^3.5.0",
-    "@testing-library/jest-dom": "^5.16.3",
-    "@testing-library/react": "^12.1.4",
-    "@testing-library/user-event": "^13.5.0",
-    "emailjs-com": "^3.2.0",
-    "flexbox": "0.0.3",
-    "graphql": "^16.4.0",
-    "graphql-request": "^4.2.0",
-    "html-react-parser": "^1.4.12",
-    "moment": "^2.29.3",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-multi-carousel": "^2.8.0",
-    "react-router-dom": "^6.3.0",
-    "react-scripts": "5.0.0",
-    "web-vitals": "^2.1.4"
-  },
+  "version": "1.0.0",
+  "description": "This website was my first react app, but I am currently in the process of rewriting it in vanilla HTML/CSS/JavaScript. Some of the information on the website is also outdated, but should be updated soon.",
+  "main": "js/index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tony-montemuro/personal-website.git"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "author": "Tony Montemuro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tony-montemuro/personal-website/issues"
+  },
+  "homepage": "https://github.com/tony-montemuro/personal-website#readme",
+  "dependencies": {
+    "@emailjs/browser": "^3.12.1"
   }
 }
