@@ -14,6 +14,10 @@
     padding: 0 10px;
 }
 
+#name {
+    font-size: 64px;
+}
+
 .home-left-section {
     display: flex;
     flex-direction: column;
