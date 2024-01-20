@@ -145,6 +145,13 @@
     }
 }
 
+@media (max-width: 1040px) {
+    .home-svg {
+        width: 60px;
+        height: 60px;
+    }
+}
+
 @media (max-width: 570px) {
     .home {
         height: calc(100vh - var(--nav-height));
@@ -156,11 +163,6 @@
 
     .home-right {
         display: none;
-    }
-
-    .home-svg {
-        width: 60px;
-        height: 60px;
     }
     
     .home-icon {
