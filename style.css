@@ -14,9 +14,6 @@
     padding: 0 10px;
 }
 
-#name {
-    font-size: 64px;
-}
 
 .home-left-section {
     display: flex;
@@ -26,7 +23,6 @@
     margin-left: auto;
     margin-right: auto;
     gap: 10px;
-    font-size: 200%;
     text-align: center;
 }
 
@@ -80,12 +76,8 @@
     padding: var(--app-padding);
 }
 
-#modal h2 {
-    font-size: 300%;
-}
-
 #modal span {
-    font-size: 125%;
+    font-size: 1.25rem;
 }
 
 #modal input, #modal textarea {
@@ -119,7 +111,7 @@
     background-color: #1e90ff;
     border-radius: 5px;
     border: 0;
-    font-size: 150%;
+    font-size: 1.5rem;
     padding: 7px 10px;
     width: -moz-fit-content;
     width: fit-content;
@@ -164,10 +156,6 @@
 
     .home-right {
         display: none;
-    }
-
-    .home-left-section {
-        font-size: 150%;
     }
 
     .home-svg {

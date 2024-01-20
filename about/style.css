@@ -3,10 +3,6 @@
     padding: var(--app-padding);
 }
 
-.about h2 {
-    font-size: 300%;
-}
-
 .about hr {
     margin: 10px 0;
 }
@@ -14,10 +10,6 @@
 .about-section {
     display: flex;
     gap: 10px;
-}
-
-.about-section li {
-    font-size: 200%;
 }
 
 .about-text {
