@@ -1,8 +1,10 @@
 // Set navbar HTML
 document.getElementsByTagName("header")[0].innerHTML = `
-    <div id="navbar" class="nav"></div>
-    <div id="navbar-mobile" class="nav"></div>
-    <div class="navbar-mobile-menu hide-menu"></div>
+    <div id="nav-wrapper">
+        <div id="navbar" class="nav"></div>
+        <div id="navbar-mobile" class="nav"></div>
+        <div class="navbar-mobile-menu"></div>
+    </div>
 `;
 
 document.getElementById("navbar").innerHTML = `
@@ -43,17 +45,14 @@ document.querySelector(".navbar-mobile-menu").innerHTML = `
 // function that toggles the navbar mobile menu on and off
 const toggleMobileMenu = () => {
     const mobileMenu = document.querySelector(".navbar-mobile-menu");
-    const header = document.getElementsByTagName("header")[0];
-    if (mobileMenu.classList.contains("hide-menu")) {
-        mobileMenu.classList.add("show-menu");
-        mobileMenu.classList.remove("hide-menu");
-        header.classList.remove("stick");
-        document.body.style.overflow = "hidden";
-    } else {
-        mobileMenu.classList.add("hide-menu");
+    const body = document.body;
+
+    if (mobileMenu.classList.contains("show-menu")) {
         mobileMenu.classList.remove("show-menu");
-        header.classList.add("stick");
-        document.body.style.overflow = "scroll";
+        body.style.overflow = "visible";
+    } else {
+        mobileMenu.classList.add("show-menu");
+        body.style.overflow = "hidden";
     }
 };
 
