@@ -84,9 +84,11 @@
 }
 
 .slide img {
-    min-height: auto;
-    height: 100%;
-    max-width: calc(100% - 1px);
+    object-fit: cover;
+    max-width: calc(100% - 3px);
+    max-height: calc(100% - 1px);
+    width: auto;
+    height: auto;
 }
 
 #porter {
