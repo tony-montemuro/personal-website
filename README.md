@@ -1,5 +1,7 @@
 # [tonysmb.com](https://tonysmb.com): A Personal Website
 
+**Note:** This website is no longer maintained. My personal website has moved [to this repository](https://github.com/tony-montemuro/dev-blog). This repository will be archieved in April 2026.
+
 ## A Brief History of This Website
 
 Initially, this website was created in March 2022, as a way to begin learning [React](https://react.dev/), a JavaScript library for building interactive user interfaces. Now that I have been using React for 2 years, I realized that React is a bit overkill for a website like this.
